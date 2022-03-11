@@ -45,7 +45,7 @@ namespace EkrNet
             if (Address.Equals("about:blank")) return;
             if((!Address.StartsWith("http://")) || (!Address.StartsWith("https://")))
             {
-                Address = "https://" + Address + ".com";
+                Address = "https://" + Address + ".fr";
             }
             try
             {
